@@ -9,6 +9,7 @@ async-graphql-axum = "7.0.17"
 axum = "0.8.7"
 clap = { version = "4.5.53", features = ["derive"] }
 rayon = "1.11.0"
+sea-orm = { version = "1.1.19", default-features = false, features = ["runtime-async-std-rustls", "sqlx-mysql", "macros"] }
 serde = "1.0.228"
 serde_json = "1.0.145"
 smartcore = { version = "0.4.8", features = ["datasets", "ndarray-bindings"] }
